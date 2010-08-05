@@ -1,0 +1,44 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 19:33:30) [GET]
+
+ActionController::RoutingError (No route matches "/say/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 19:38:57) [GET]
+
+ActionController::RoutingError (No route matches "/say/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 19:39:01) [GET]
+
+ActionController::RoutingError (No route matches "/say/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-07-27 19:39:37) [GET]
+Rendering say/hello
+Completed in 310ms (View: 309, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-07-28 22:12:43) [GET]
+Rendering say/hello
+Completed in 369ms (View: 297, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-07-28 22:13:27) [GET]
+Rendering say/hello
+Completed in 54ms (View: 51, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-07-28 22:14:22) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
